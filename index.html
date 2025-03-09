@@ -4,87 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zeehad AL Sheikh</title>
-    <!-- Add CMU Serif font -->
     <style>
-        @font-face {
-            font-family: 'CMU Serif';
-            src: url('https://cdn.jsdelivr.net/npm/cmu-serif@0.0.3/cmunrm.ttf') format('truetype');
+        /* General Reset */
+        body, h1, h2, h3, p, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            color: inherit;
+            font-family: 'Georgia', serif;
         }
 
         body {
-            font-family: 'CMU Serif', serif; /* LaTeX-like font */
             line-height: 1.6;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            color: #333;
+            color: #000; /* All text black */
             background-color: #fff;
-            font-size: 1.05em; /* Normal font size */
+            font-size: 1em; /* Decreased overall font size */
         }
 
-        h1, h2, h3 {
+        h1 {
+            font-size: 1.8em; /* Smaller font size */
+            font-weight: 600;
+            margin-top: 0; /* Removed margin */
+            margin-bottom: 0.5em;
+            text-align: left; /* Title aligned to the left */
+            color: #000; /* Black color */
+        }
+
+        h2 {
+            font-size: 1em; /* Smaller font size */
             font-weight: 600;
             margin-top: 1.5em;
             margin-bottom: 0.5em;
-        }
-
-         h1 {
-            font-size: 2.5em;
-            border-bottom: 2px solid #003b99;
-            padding-bottom: 10px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-       h2 {
-            font-size: 1.2em;
-            font-variant: small-caps;
-            margin-top: 30px;
-            margin-bottom: 10px;
+            color: #000; /* Black color */
         }
 
         h3 {
-            font-size: 1.4em;
+            font-size: 1.1em; /* Smaller font size */
+            font-weight: 600;
             margin-top: 1.2em;
             margin-bottom: 0.5em;
+            color: #000; /* Black color */
         }
 
         p {
             margin-bottom: 1.5em;
-            font-size: 1em; /* Normal font size */
+            font-size: 0.95em; /* Smaller font size */
             line-height: 1.6;
+            color: #000; /* Black color */
         }
 
         a {
-            color: #003b99;
-            text-decoration: underline; /* Underline all links */
+            color: #003b99; /* Blue color for links */
+            text-decoration: underline;
         }
 
         a:hover {
-            text-decoration: none; /* Remove underline on hover */
+            text-decoration: none;
         }
 
         .social-links {
             display: flex;
-            flex-direction: column; /* Stack links vertically */
+            flex-direction: column;
             gap: 10px;
             margin-top: 20px;
-            align-items: flex-start; /* Align to the left */
+            align-items: flex-start;
         }
 
         .social-links a {
-            color: #333;
+            color: #003b99; /* Blue color for social links */
             font-weight: 500;
-            text-decoration: underline; /* Underline social links */
+            text-decoration: underline;
         }
 
         .social-links a:hover {
-            color: #003b99;
-            text-decoration: none; /* Remove underline on hover */
+            color: #002366; /* Darker blue on hover */
+            text-decoration: none;
         }
 
         .container {
-            margin-top: 50px;
+            margin-top: 20px; /* Reduced margin */
         }
     </style>
 </head>
@@ -102,7 +103,7 @@
         <h2>Wisdom</h2>
         <p>Occasionally I try to put into words.</p>
         <p>
-            <a href="https://zeehadalsheikh.blogspot.com/" target="_blank">Bengali Blog</a> ·
+            <a href="https://zeehadalsheikh.blogspot.com/" target="_blank">Bengali Blog</a> |
             <a href="https://zeehad.medium.com/" target="_blank">English Blog</a> 
         </p>
 
