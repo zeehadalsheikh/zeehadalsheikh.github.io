@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zeehad AL Sheikh</title>
+    <!-- Add CMU Serif font -->
     <style>
         @font-face {
             font-family: 'CMU Serif';
@@ -11,71 +12,76 @@
         }
 
         body {
-            font-family: 'CMU Serif', serif;
+            font-family: 'CMU Serif', serif; /* LaTeX-like font */
             line-height: 1.6;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
             color: #333;
-            background-color: #fafafa; /* Lightened background */
-            font-size: 1.1em; /* Slightly larger font size */
+            background-color: #fff;
+            font-size: 1em; /* Normal font size */
         }
 
-        .container {
-            margin-top: 50px;
+        h1, h2, h3 {
+            font-weight: 600;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
         }
 
         h1 {
             font-size: 2.5em;
-            border-bottom: 2px solid #003b99;
-            padding-bottom: 10px;
-            margin-bottom: 30px;
             text-align: center;
+            margin-bottom: 30px;
         }
 
         h2 {
-            font-size: 1.3em; /* Slightly larger font size */
-            font-variant: small-caps;
-            margin-top: 30px;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 5px;
+            font-size: 1.8em;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            margin-top: 1.2em;
+            margin-bottom: 0.5em;
         }
 
         p {
-            margin-bottom: 15px;
-            font-size: 1.1em; /* Slightly larger font size */
+            margin-bottom: 1.5em;
+            font-size: 1em; /* Normal font size */
+            line-height: 1.6;
         }
 
         a {
             color: #003b99;
-            text-decoration: none;
+            text-decoration: underline; /* Underline all links */
         }
 
         a:hover {
-            text-decoration: underline;
+            text-decoration: none; /* Remove underline on hover */
         }
 
         .social-links {
             display: flex;
-            gap: 15px;
-            margin-top: 10px;
+            flex-direction: column; /* Stack links vertically */
+            gap: 10px;
+            margin-top: 20px;
+            align-items: flex-start; /* Align to the left */
         }
 
         .social-links a {
-            display: flex;
-            align-items: center;
-            gap: 5px;
             color: #333;
+            font-weight: 500;
+            text-decoration: underline; /* Underline social links */
         }
 
         .social-links a:hover {
             color: #003b99;
+            text-decoration: none; /* Remove underline on hover */
         }
 
-        .social-links img {
-            width: 20px;
-            height: 20px;
+        .container {
+            margin-top: 50px;
         }
     </style>
 </head>
@@ -90,30 +96,19 @@
         <p> Nevertheless, couldn’t resist mentioning, I have been just striving through somewhere of computational biology, sustainability, climate-science, and quantum computing. RA-ing, and interning with two biomedical, public health, and computational biology research labs.</p>
         <p>And apparently hustling towards a few passion projects (e.g. a nonprofit climate-tech, an independent study in LLM, and a community-driven social service initiative). Conducting an independent study under the supervision of a professor in environmental science; that might get to make it to a published paper. </p>
 
-       <h2>Wisdom</h2>
-<p>Occasionally I try to put into words.</p>
+        <h2>Wisdom</h2>
+        <p>Occasionally I try to put into words.</p>
         <p>
             <a href="https://zeehadalsheikh.blogspot.com/" target="_blank">Bengali Blog</a> ·
             <a href="https://zeehad.medium.com/" target="_blank">English Blog</a> 
         </p>
-                  
+
         <h2>Link to My Socials</h2>
         <p>Can be reached at <a href="mailto:zeehadalsheikh@gmail.com">zeehadalsheikh@gmail.com</a></p>
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/zeehadalsheikh/" target="_blank">
-               
-                LinkedIn
-            </a> 
-          <a href="https://x.com/zeehadalsheikh" target="_blank"> 
-             
-                X
-            </a> ·
-            <a href="https://bsky.app/profile/zeehad.bsky.social" target="_blank">
-              
-                Bluesky
-                 </a>
-                
-          
+            <a href="https://www.linkedin.com/in/zeehadalsheikh/" target="_blank">LinkedIn</a> 
+            <a href="https://x.com/zeehadalsheikh" target="_blank">X</a>
+            <a href="https://bsky.app/profile/zeehad.bsky.social" target="_blank">Bluesky</a>
         </div>
     </div>
 </body>
